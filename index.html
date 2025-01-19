@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Side Bar</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="cover">
+        <div class="sidebar">
+            <div>
+                <!-- Logo Section -->
+                <div id="logo">
+                    <img src="./Mylogo.png" alt="Company Logo">
+                    <p id="title"></p>
+                </div>
+                <!-- Toggle Button -->
+                <div id="toggle_btn">
+                    <ion-icon name="chevron-forward-circle-outline"></ion-icon>
+                </div>
+                <!-- Menu Items -->
+                <ul>
+                    <li><a href="#" class="active"><ion-icon name="grid"></ion-icon>
+                        <span class="label">Dashboard</span></a></li>
+                    <li><a href="#" class="menu"><ion-icon name="cash"></ion-icon>
+                        <span class="label">Transactions</span></a></li>
+                    <li><a href="#" class="menu"><ion-icon name="wallet"></ion-icon>
+                        <span class="label">Wallet</span></a></li>
+                    <li><a href="#" class="menu"><ion-icon name="flag"></ion-icon>
+                        <span class="label">Goal</span></a></li>
+                    <li><a href="#" class="menu"><ion-icon name="analytics"></ion-icon>
+                        <span class="label">Analytics</span></a></li>
+                    <li><a href="#" class="menu"><ion-icon name="settings"></ion-icon>
+                        <span class="label">Settings</span></a></li>
+                </ul>
+            </div>
+            <!-- Bottom Menu -->
+            <ul>
+                <li><a href="#"><ion-icon name="person"></ion-icon>
+                    <span class="label">Profile</span></a></li>
+                <li><a href="#"><ion-icon name="log-out"></ion-icon>
+                    <span class="label">Logout</span></a></li>
+            </ul>
+        </div>
+        <!-- Main Content -->
+        <!-- <main id="content">
+            <h1>HEY, REMEMBER!</h1>
+            <p>Change begins with a single thought.</p>
+        </main> -->
+    </div>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
