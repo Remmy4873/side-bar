@@ -10,9 +10,6 @@ and visually appealing sidebar component.
 - **Customizable**: Easy to modify styles and structure to fit various use cases.
 - **Interactive Functionality**: Includes smooth animations and dynamic behavior powered by JavaScript.
 
-## Preview
-
-![Project Logo](Mylogo.png)
 
 ## Folder Structure
 
@@ -38,5 +35,4 @@ Ensure you have the following installed on your system:
   ## Navigate to the project directory
    cd side-bar
 
-   ##Author
-Remmy - GitHub Profile
+ 
